@@ -1,2 +1,2 @@
 #!/bin/bash
-22-users_and_homes
+22-users_and_homecut -d : -f 1,6 /etc/passwd | sort
