@@ -1,2 +1,2 @@
 #!/bin/bash
-find -printf "%TY-%Tm-%Td %TT %p\n" | sort -n 10
+ls -lt . | head -10
