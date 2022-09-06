@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((128+int(TRUEKNOWLEDGE)))"
+echo "$((128+$int(TRUEKNOWLEDGE)))"
