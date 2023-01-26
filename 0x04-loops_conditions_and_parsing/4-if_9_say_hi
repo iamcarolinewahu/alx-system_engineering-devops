@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #print string 10 times, at 9th value print Hi
 
-i=1
-while (("$i" <= 10))
+i=0
+while (("$i" < 10))
 do
 	if [ "$i" == 9 ]
 	then
