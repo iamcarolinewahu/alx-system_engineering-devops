@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#find process ID 
+#find process ID
+# shellcheck disable=SC2009
 pgrep -l bash
